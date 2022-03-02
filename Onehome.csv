@@ -1,0 +1,11 @@
+,Type_property,Prices,zip,transactionType,kitchen,energy,subtype,land,bedrooms,terrace,garden,swimpool,condition
+0,house,1650000,8420,for sale,hyper equipped,gas,villa,760,4,,450,,false
+1,house,419000,9820,for sale,hyper equipped,gas,house,430,3,true,330,,false
+2,house,459000,9820,for sale,hyper equipped,gas,house,426,3,true,341,,false
+3,house,149000,4000,for sale,installed,fueloil,house,967,2,true,300,,false
+4,house,149000,4040,for sale,semi equipped,gas,house,388,5,,147,,false
+5,house,149000,4630,for sale,not installed,fueloil,house,130,2,true,,,false
+6,house,159000,9600,for sale,semi equipped,pellet,house,150,2,true,50,,false
+7,house,219000,4870,for sale,not installed,gas,house,1091,5,true,1092,,false
+8,house,139000,9600,for sale,installed,gas,house,100,3,true,23,,false
+9,house,239000,9600,for sale,hyper equipped,gas,house,450,3,true,250,,false
