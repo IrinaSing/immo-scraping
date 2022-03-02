@@ -22,23 +22,22 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 path = "filtered_url.txt"
-homeinfo=''
+price =[]
 
 with open(path, "r") as fp:
     lines = fp.readlines()
-    for each in lines[0:3]:
+    for each in lines[0:1]:
         url = each
         r = requests.get(url)
         print(url, r.status_code)
         soup = BeautifulSoup(r.content, "lxml")
-        info = soup.find_all("script")
-        if 'window.dataLayer' in info:
-            homeinfo+=info
-            #print(elem.text)
-            #convert string to  object
-            print(homeinfo)
-            """homeinfo=homeinfo[34::]
-            homeinfo=homeinfo.replace('\n','')
-            homeinfo=homeinfo.replace('];','')
-            js_obj = json.loads(homeinfo)
-            print(homeinfo)"""
+        
+        for elem in soup.find_all("p", attrs={"class": "classified__price"}):
+            for each in elem.find_all("span", attrs={"class": "sr-only"}):
+                price+=each.text
+                print(each.text) 
+       
+#        data = json.loads(soup.find('script').string)
+#        print (data)
+
+    

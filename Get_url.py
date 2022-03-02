@@ -24,7 +24,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Edge()
 link_list = []
 
-for page in range(201,220):
+for page in range(261,300):
     url = 'https://www.immoweb.be/en/search/house/for-sale?countries=BE&page='+ str(page)+ '&orderBy=relevance'
 
     driver.get(url)
