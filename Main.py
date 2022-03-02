@@ -1,18 +1,9 @@
 import bs4
 import requests
 from bs4 import BeautifulSoup
-import numpy as np
 import pandas as pd
 import json
-import re
-import lxml.html
-import time
-import random
-from random import randint
-import logging
-import collections
-from time import gmtime, strftime
-import urllib
+
 import re
 # from tabulate import tabulate
 import os
@@ -39,7 +30,7 @@ with open(path, "r") as fp:
     swimpool = []
     condition = []
 
-    for each in lines[0:10]:
+    for each in lines[0:100]:
         url = each
         r = requests.get(url)
         # print(url, r.status_code)
