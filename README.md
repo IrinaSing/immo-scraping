@@ -10,7 +10,7 @@ Our program can be used for scrapping real estate websites. It saves information
 4. Collecting information in data frames.
 5. Creating CSV file with database.
 
-In our example we gather data from Belgian resource ImmoWeb, but the program can be adapted for scparring from other resources.
+In our example we gather data from Belgian resource ImmoWeb, but the program can be adapted for scrapping from other resources.
 
 ## Installation
 
