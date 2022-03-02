@@ -23,7 +23,38 @@ from selenium.webdriver.common.by import By
 
 path = "filtered_url.txt"
 
+
 with open(path, "r") as fp:
+    lines = fp.readlines()
+    for each in lines[100:105]:
+        url = each
+        r = requests.get(url)
+        print(url, r.status_code)
+        soup = BeautifulSoup(r.content, "lxml")
+
+        homeinfo=''
+        for elem in soup.find_all("script"):
+            if 'window.dataLayer' in elem.text:
+                homeinfo+=elem.text
+
+        homeinfo=homeinfo[34::]
+        homeinfo=homeinfo.replace('\n','')
+        homeinfo=homeinfo.replace('];','')
+        homeinfo=homeinfo.replace("window.dataLayer","")
+        
+        js_obj = json.loads(homeinfo)
+        print(js_obj["classified"]["type"])
+        print(js_obj["classified"]["price"])
+        print(js_obj["classified"]["zip"])
+        print(js_obj["classified"]["transactionType"])
+        print(js_obj["classified"]["kitchen"]["type"])
+        print(js_obj["classified"]["energy"]["heatingType"])
+        print(js_obj["classified"]["subtype"])
+        print(js_obj["classified"]["land"]["surface"])
+
+        print(js_obj["classified"]["bedroom"]["count"])
+
+    """with open(path, "r") as fp:
     lines = fp.readlines()
     for each in lines[100:105]:
         url = each
@@ -60,7 +91,7 @@ with open(path, "r") as fp:
         print(js_obj["classified"]["outdoor"]["garden"]["surface"])
         print(js_obj["classified"]["wellnessEquipment"]["hasSwimmingPool"])
         print(js_obj["classified"]["condition"]["isNewlyBuilt"])
-        print(js_obj)
+        print(js_obj)"""
         
         
         
@@ -68,7 +99,7 @@ with open(path, "r") as fp:
         
         
         
-        """for elem in soup.find_all("div", attrs={"class": "classified__information--address"}):
+    """for elem in soup.find_all("div", attrs={"class": "classified__information--address"}):
             for local in elem.find_all("span"):
                 locality+=each.text
                 print(local.text) 
