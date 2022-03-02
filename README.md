@@ -27,5 +27,6 @@ This the list of the things you need to use the software and how to install them
 
 4. Install Pandas  
    `$ pip3 install pandas`
-
-## Usage
+   
+5. Install Selenium
+   `$ pip3 install selenium`
