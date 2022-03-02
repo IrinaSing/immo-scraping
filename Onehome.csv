@@ -9,3 +9,74 @@
 7,house,219000,4870,for sale,not installed,gas,house,1091,5,true,1092,,false
 8,house,139000,9600,for sale,installed,gas,house,100,3,true,23,,false
 9,house,239000,9600,for sale,hyper equipped,gas,house,450,3,true,250,,false
+10,house group,295000 - 345000,4837,for sale,,,house group,,,,,,false
+11,house,345000,1390,for sale,semi equipped,fueloil,house,871,3,true,700,,false
+12,house,125000,4500,for sale,semi equipped,gas,house,70,3,true,,,false
+13,house,379000,9280,for sale,installed,gas,house,420,4,true,320,,false
+14,house,545000,1200,for sale,usa installed,gas,house,121,3,true,50,,false
+15,house,262500,8790,for sale,installed,gas,house,247,3,true,,,false
+16,house,335000,8792,for sale,installed,gas,house,376,3,true,,,false
+17,house,279000,4680,for sale,not installed,electric,house,2335,4,true,1900,,false
+18,house,299000,4680,for sale,installed,gas,apartment block,582,4,,369,,false
+19,house,367000,4040,for sale,not installed,gas,house,280,6,true,42,,false
+20,house,219000,4682,for sale,semi equipped,fueloil,house,652,3,true,536,,false
+21,house,229000,4530,for sale,semi equipped,fueloil,bungalow,1144,3,true,1600,,false
+22,house,259000,4040,for sale,semi equipped,gas,apartment block,140,7,true,,,false
+23,house,299000,4020,for sale,installed,gas,apartment block,113,4,,,,false
+24,house group,445750 - 445750,2860,for sale,,,house group,,,,,,false
+25,house,515000,1030,for sale,installed,gas,house,170,6,true,77,,false
+26,house,495000,1342,for sale,semi equipped,gas,house,510,3,true,394,,false
+27,house,895000,1410,for sale,installed,electric,villa,1501,4,,,,false
+28,house,375000,4400,for sale,installed,fueloil,house,1717,4,true,1170,,false
+29,house,425000,1020,for sale,not installed,gas,mixed use building,80,2,,,,false
+30,house,295000,7500,for sale,,,apartment block,390,9,,,,false
+31,house,261687,3640,for sale,,,house,274,3,,274,,false
+32,apartment,225000,8500,for sale,installed,gas,apartment,,2,true,,,false
+33,house,570000,1050,for sale,installed,gas,house,0,5,true,,,false
+34,apartment,215000,9800,for sale,installed,gas,apartment,,2,true,,,false
+35,apartment,264000,4100,for sale,installed,gas,apartment,,3,true,,,false
+36,apartment,165000,4000,for sale,installed,,apartment,,2,true,,,false
+37,house,235000,4041,for sale,semi equipped,,house,694,4,true,,,false
+38,house,85000,4500,for sale,semi equipped,gas,house,127,3,,,,false
+39,house,90000,4870,for sale,not installed,gas,house,230,4,,75,,false
+40,house,275000,4540,for sale,installed,fueloil,house,762,3,true,,,false
+41,house,289000,9280,for sale,semi equipped,gas,house,324,3,true,,,false
+42,house,350000,4530,for sale,installed,fueloil,house,1782,4,true,,,false
+43,house,350000,1930,for sale,,fueloil,house,389,3,,323,,false
+44,house,389000,1070,for sale,,fueloil,house,653,3,true,380,,false
+45,house,430000,1120,for sale,installed,gas,town house,194,3,true,100,,false
+46,house,1175000,1770,for sale,hyper equipped,fueloil,villa,2477,5,true,,true,false
+47,house,239000,7900,for sale,semi equipped,fueloil,house,396,2,,,,false
+48,house,239000,7900,for sale,semi equipped,fueloil,house,396,2,,,,false
+49,house,239000,7900,for sale,semi equipped,fueloil,villa,396,2,,,,false
+50,house,239000,7900,for sale,semi equipped,fueloil,villa,396,2,,,,false
+51,house,475000,1330,for sale,hyper equipped,gas,house,544,3,true,485,,false
+52,house,1150000,1150,for sale,installed,gas,villa,688,6,true,600,,false
+53,house,365000,1620,for sale,installed,gas,house,105,3,,40,,false
+54,house,139900,9600,for sale,semi equipped,electric,house,260,2,,,,false
+55,house,299500,9600,for sale,semi equipped,gas,house,469,3,true,,,false
+56,house,320000,4450,for sale,semi equipped,fueloil,house,1340,4,true,650,,false
+57,house,455000,1620,for sale,not installed,gas,house,177,5,true,70,,false
+58,house,425000,9400,for sale,hyper equipped,gas,house,1305,3,true,,,false
+59,house,300000,4287,for sale,semi equipped,,villa,716,6,true,420,,false
+60,house,305000,8550,for sale,hyper equipped,gas,house,226,2,true,,,false
+61,house,305000,8553,for sale,hyper equipped,gas,house,226,2,true,,,false
+62,house,330000,1080,for sale,hyper equipped,gas,house,76,2,true,,,false
+63,house,785000,1000,for sale,,electric,apartment block,97,4,,,,false
+64,house,785000,1000,for sale,,electric,apartment block,97,4,,,,false
+65,house,129000,4020,for sale,semi equipped,gas,apartment block,100,5,,,,false
+66,house,200000,4460,for sale,installed,gas,apartment block,173,3,true,,,false
+67,house,315000,4560,for sale,installed,gas,house,655,3,true,250,,false
+68,house,310000,4530,for sale,not installed,gas,house,815,3,true,,,false
+69,house,310000,4530,for sale,not installed,gas,house,810,3,true,,,false
+70,house,310000,4530,for sale,not installed,gas,house,850,3,true,,,false
+71,house,850000,1410,for sale,usa hyper equipped,gas,house,890,4,true,890,,false
+72,house,195000,4400,for sale,hyper equipped,gas,house,389,3,true,240,,false
+73,house,349000,4570,for sale,installed,pellet,house,1746,3,true,1400,true,false
+74,house,450000,3130,for sale,usa hyper equipped,gas,villa,1578,5,true,,,false
+75,house,149000,4020,for sale,installed,fueloil,house,196,2,,136,,false
+76,house,219000,4400,for sale,hyper equipped,gas,house,190,3,true,,,false
+77,house group,339000 - 367000,7060,for sale,,,house group,,,,,,false
+78,house,80000,4520,for sale,not installed,fueloil,house,146,4,true,90,,false
+79,house,160000,6780,for sale,semi equipped,fueloil,house,279,4,,,,false
+80,house,280000,4620,for sale,semi equipped,gas,house,327,4,true,150,,false
