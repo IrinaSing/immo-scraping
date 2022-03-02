@@ -38,23 +38,33 @@ assert "No results found." not in driver.page_source
 driver.close()
 
 locality =[]
-    
+homeinfo='' 
 for each in link_list:
     link = each
     r = requests.get(link)
-    print(link, r.status_code)
     soup = BeautifulSoup(r.content, "lxml")
-    soup.find_all("script")[1]
+    #soup.find_all("script")[1]
     time.sleep(1)
-print(soup)
 
-"""    for elem in soup.find_all("td", attrs={'class':'classified-table__data'}):
+    """for elem in soup.find_all("script"):
+        if 'window.dataLayer' in elem.text:
+            homeinfo+=elem.text
+            print(elem.text)
+            print(homeinfo)"""
+
+"""#convert string to  object
+homeinfo=homeinfo[34::]
+homeinfo=homeinfo.replace('\n','')
+homeinfo=homeinfo.replace('];','')
+js_obj = json.loads(homeinfo)
+"""
+
+"""    for elem in soup.find_all("span", attrs={'aria-hidden':"true"}):
     #find_all("span", attrs={'class':'classified__information--address-row'}):
         #find_elements_by_xpath("//span[@class='classified__information--address-row']"):
         locality.append(elem.text)
-        print(elem.text)"""
-
-#print(len(locality))
+        print(elem.text)
+print(len(locality))"""
 
 
 """
