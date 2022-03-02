@@ -39,7 +39,7 @@ with open(path, "r") as fp:
     swimpool = []
     condition = []
 
-    for each in lines[0:100]:
+    for each in lines[0:10]:
         url = each
         r = requests.get(url)
         # print(url, r.status_code)
